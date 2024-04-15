@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-   <meta charset="utf-8"/>
-   <title>iaradominguezcv</title>
-   <link href="estilos.css" rel=stylesheet type="text/css"> 
+        <meta charset="utf-8"/>
+        <title>iaradominguezcv</title>
+        <link href="estilos.css" rel="stylesheet" type="text/css"> 
+       <!-- OJO te habia faltado las "" en stylesheet y sumar un espaciado despues para el type por eso generaba error-->
     </head>
     <body>
         <header id="cabecera">
@@ -17,52 +18,46 @@
                     <li><a href="Contacto.html">Contacto</a></li>
                 </ul>
             </nav>
-        </header>
-    <main>
-        <section>
-            <article><img src="img/iarafotocv.jpg" width="300px" heigth="300px" alt="fotoiaradominguez"/>
-            </article>
-            <h2>Sobre mi</h2>
-            <p>Me llamo Iara Dominguez, tengo 22 años. Me considero una persona proactiva, responsable y capaz de trabajar en entornos de alta presion, dispuesta a buscar soluciones eficaces a los desafios que se me presenten. Siempre tengo la mejor disposion para la realizacion de mis labores.</p>
-        </section>
-        <section>
-            <h2>Formaci&oacute;n academica</h2>
-            <p>Bachiller en Comunicaci&oacute;n</p>
-            <p>Lic. En Diseño y Comunicaci&oacute;n Visual</p>
-        </section>
-         <section>
+        </header><!-- main y footer son otras partes del body por ello deben tener la misma altura de identado como header-->
+        <main>
+            <section>
+                <article><img src="img/iarafotocv.jpg" width="300px" heigth="300px" alt="fotoiaradominguez"/>
+                </article>
+                <h2>Sobre mi</h2>
+                <p>Me llamo Iara Dominguez, tengo 22 años. Me considero una persona proactiva, responsable y capaz de trabajar en entornos de alta presion, dispuesta a buscar soluciones eficaces a los desafios que se me presenten. Siempre tengo la mejor disposion para la realizacion de mis labores.</p>
+            </section>   <!--aca seria al reves  dentro de un <article> va un <section> y dentro de este seccion integrar todo esto-->
+            <section>
+                <h2>Formaci&oacute;n academica</h2>
+                <p>Bachiller en Comunicaci&oacute;n</p>
+                <p>Lic. En Diseño y Comunicaci&oacute;n Visual</p>
+            </section>
+            <section> <!-- las etiquetas <h> y <p> ocupan el mismo nivel de tabulacion no es que dentro de una h esta atrapada una p-->
                 <h2>Experiencia laboral</h2>
-                    <h3>Diseñadora grafica freelance</h3>
-                        <p>Identidad Visual</p>   
-                        <p>Folletos, catalogos y carteles</p>
-                        <p>Creaci&oacute;n de contenido para redes</p>
-                    <h3>Local de indumentaria "Vagus"</h3>
-                        <p>Atenci&oacute;n al cliente</p>
-                        <p>Reposi&oacute;n de mercaderia</p>
-                        <p>Asesoramiento</p>
-                    <h3>Local gastronomico "Sushi in the house"</h3>
-                        <p>Atencion al cliente</p>
-                        <p>Armado de pedidos</p>
-                        <p>Reposi&oacute;n de stock</p>
-         </section>
-        <section>
-            <h2>Cursos e idiomas</h2>
-                    <h3>Ingles</h3>
-                        <p>- B1 / intermedio</p>
-                    <h3>Secretariado Ejecutivo</h3>
-                        <p>- Universidad Nacional de Lanus</p>
-        </section>
-    </main>  
-   <footer>
-        <p><a href="Mas Info">Mas Info</a>
-        </p>
-        <p><a href="mailto:iara.dominguezzcs@gmail.com?
-            subject=Hola%20Iara"
-            target="_top">Email</a>
-        </p>
-        <p>
-            <a href="tel:1137764091">1127764091</a>
-        </p>
-    </footer>
-</body>
+                <h3>Diseñadora grafica freelance</h3>
+                <p>Identidad Visual</p>   
+                <p>Folletos, catalogos y carteles</p>
+                <p>Creaci&oacute;n de contenido para redes</p>
+                <h3>Local de indumentaria "Vagus"</h3>
+                <p>Atenci&oacute;n al cliente</p>
+                <p>Reposi&oacute;n de mercaderia</p>
+                <p>Asesoramiento</p>
+                <h3>Local gastronomico "Sushi in the house"</h3>
+                <p>Atencion al cliente</p>
+                <p>Armado de pedidos</p>
+                <p>Reposi&oacute;n de stock</p>
+            </section>
+            <section>
+                <h2>Cursos e idiomas</h2>
+                <h3>Ingles</h3>
+                <p>- B1 / intermedio</p>
+                <h3>Secretariado Ejecutivo</h3>
+                <p>- Universidad Nacional de Lanus</p>
+            </section>
+        </main>  
+        <footer>
+            <p><a href="Mas Info">Mas Info</a></p>
+            <p><a href="mailto:iara.dominguezzcs@gmail.com?subject=Hola%20Iara" target="_top">Email</a></p>
+            <p><a href="tel:1137764091">1127764091</a></p>
+        </footer><!--aca te mareaste un poco con como cerras las etiquetas pero se deberia presentar asi -->
+    </body>
 </html>
